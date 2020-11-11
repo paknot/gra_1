@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Move2D : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 5f; // predkosc
     public bool isGrounded = false;
     // Start is called before the first frame update
     void Start()
@@ -16,11 +16,12 @@ public class Move2D : MonoBehaviour
     void Update()
     {
     Jump();
-    Vector3 poruszanie = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
+    Vector3 poruszanie = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f); //ruch koryzontalny
     transform.position += poruszanie * Time.deltaTime * moveSpeed;
     }
-    void Jump(){
+    void Jump(){   //skok
         if (Input.GetButtonDown("Jump") && isGrounded == true){
+        //sila skoku                                                    |
         gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,10f), ForceMode2D.Impulse);
     }
     }
