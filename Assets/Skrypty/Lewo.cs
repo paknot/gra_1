@@ -18,5 +18,11 @@ public class Lewo : MonoBehaviour
      }else if(Input.GetKeyDown(KeyCode.D)) { // obraca sie jezeli D
        transform.rotation = Quaternion.Euler(transform.rotation.x, 0, transform.rotation.z);
     }
+    
+       if(Input.GetKeyDown(KeyCode.LeftArrow)) { // obraca sie jezeli strzałka w lewo
+        transform.rotation = Quaternion.Euler(transform.rotation.x, 180, transform.rotation.z);
+     }else if(Input.GetKeyDown(KeyCode.RightArrow)) { // obraca sie jezeli strzałka w prawo
+       transform.rotation = Quaternion.Euler(transform.rotation.x, 0, transform.rotation.z);
+    }
     }
 }
