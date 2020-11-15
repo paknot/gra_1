@@ -505,36 +505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7367af29a6795b9498c82ce3db4dc08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &753229050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 753229051}
-  m_Layer: 0
-  m_Name: Firepoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &753229051
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 753229050}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1225860096}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1102146188
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +683,6 @@ Transform:
   m_LocalScale: {x: 6.6494226, y: 7.0667677, z: 1}
   m_Children:
   - {fileID: 746275528}
-  - {fileID: 753229051}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -740,18 +709,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1225860094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 4eb6de246dea35e4c9751813caeb6829, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
-  m_Script: {fileID: 11500000, guid: e78d04bc8e6c48c489ec78278923f69b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 753229051}
-  bulletPrefab: {fileID: 8459138381630710670, guid: 422a151e16490c945aa1369ce5f9009e,
-    type: 3}
->>>>>>> 5b5db4c4cf63fed5c8e2e063d9d4b8951c924787
 --- !u!50 &1225860099
 Rigidbody2D:
   serializedVersion: 4
