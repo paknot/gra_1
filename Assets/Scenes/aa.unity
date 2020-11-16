@@ -613,6 +613,7 @@ GameObject:
   - component: {fileID: 1225860099}
   - component: {fileID: 1225860101}
   - component: {fileID: 1225860097}
+  - component: {fileID: 1225860098}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -699,6 +700,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   isGrounded: 0
+--- !u!114 &1225860098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225860094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eb6de246dea35e4c9751813caeb6829, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &1225860099
 Rigidbody2D:
   serializedVersion: 4
