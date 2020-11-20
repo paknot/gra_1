@@ -684,10 +684,13 @@ Transform:
   - {fileID: 746275528}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1914125450}
 =======
   - {fileID: 2100880884}
 >>>>>>> d94ca42e61a493f39579f18719ac001667e6e300
+=======
+>>>>>>> parent of 6251cee... Wide Czyż
 =======
 >>>>>>> parent of 6251cee... Wide Czyż
   m_Father: {fileID: 0}
@@ -707,6 +710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   isGrounded: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &1225860098
 MonoBehaviour:
@@ -729,6 +733,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 >>>>>>> d94ca42e61a493f39579f18719ac001667e6e300
+=======
+>>>>>>> parent of 6251cee... Wide Czyż
 =======
 >>>>>>> parent of 6251cee... Wide Czyż
 --- !u!50 &1225860099
