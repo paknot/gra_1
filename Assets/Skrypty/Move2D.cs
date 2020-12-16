@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Move2D : MonoBehaviour
 {
-    public Animator animator;
     public float moveSpeed = 5f; // predkosc
     public bool isGrounded = false;
     // Start is called before the first frame update
@@ -16,12 +15,9 @@ public class Move2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
     Jump();
-    
     Vector3 poruszanie = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f); //ruch koryzontalny
-    transform.position += poruszanie * Time.deltaTime * moveSpeed;    
-    
+    transform.position += poruszanie * Time.deltaTime * moveSpeed;
     }
     void Jump(){   //skok
         if (Input.GetButtonDown("Jump") && isGrounded == true){
