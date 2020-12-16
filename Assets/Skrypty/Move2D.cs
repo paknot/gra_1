@@ -22,7 +22,7 @@ public class Move2D : MonoBehaviour
     void Jump(){   //skok
         if (Input.GetButtonDown("Jump") && isGrounded == true){
         //sila skoku                                                    |
-        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,10f), ForceMode2D.Impulse);
+        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,6f), ForceMode2D.Impulse);
     }
     }
 }
