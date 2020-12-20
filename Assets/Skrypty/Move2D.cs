@@ -5,7 +5,7 @@ using UnityEngine;
 public class Move2D : MonoBehaviour
 {
     public float moveSpeed = 5f; // predkosc
-    public bool isGrounded = false;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +20,7 @@ public class Move2D : MonoBehaviour
     transform.position += poruszanie * Time.deltaTime * moveSpeed;
     }
     void Jump(){   //skok
-        if (Input.GetButtonDown("Jump") && isGrounded == true){
+        if (Input.GetButtonDown("Jump") ){
         //sila skoku                                                    |
         gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,6f), ForceMode2D.Impulse);
     }
