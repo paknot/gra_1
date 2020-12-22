@@ -6,6 +6,7 @@ public class Kula : MonoBehaviour
 {
 	
 	public float speed = 20f;
+	public int damage = 20;
 	public Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -16,7 +17,11 @@ public class Kula : MonoBehaviour
 
 	void OnTriggerEnter2D (Collider2D hitInfo)
 	{
-		Debug.Log(hitInfo.name);
+		Enemy enemy = hitInfo.GetComponent<Enemy>();
+		if (enemy != null)
+		{
+			enemy.TakeDamage(damage);
+		}
 		Destroy(gameObject);
 	}
 }

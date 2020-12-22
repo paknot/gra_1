@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pociskoponenta : MonoBehaviour
+public class kulaop : MonoBehaviour
 {
    public float speed;
 
