@@ -10,5 +10,35 @@ EditorBuildSettings:
     guid: dada84d7e8f06ef49b7b1f2dfd902e4e
   - enabled: 1
     path: Assets/Scenes/LVL1.unity
-    guid: 59d7bde087f18664782509e0ba16c48c
+    guid: 152300afd74eb72409e423d91f311646
+  - enabled: 1
+    path: Assets/Scenes/LVL2.unity
+    guid: 17548fcc78f4134469f5836f89af7c05
+  - enabled: 1
+    path: Assets/Scenes/LVL3.unity
+    guid: f1180146a93b3f04e97f89066b364654
+  - enabled: 1
+    path: Assets/Scenes/LVL4.unity
+    guid: f620cd37e9842ee4dafc4d3c338a41dd
+  - enabled: 1
+    path: Assets/Scenes/LVL5.unity
+    guid: 45058ac93edd2624a8e80ba62e009be9
+  - enabled: 1
+    path: Assets/Scenes/LVL6.unity
+    guid: aa086ce664620264799e4273670d5309
+  - enabled: 1
+    path: Assets/Scenes/LVL7.unity
+    guid: 60a9017cefc74ad488dfb86151533786
+  - enabled: 1
+    path: Assets/Scenes/LVL8.unity
+    guid: fa832e512a717c04fa13c74cf605dd32
+  - enabled: 1
+    path: Assets/Scenes/LVL9.unity
+    guid: ee52dd4c6a6809244b8c234713548dd3
+  - enabled: 1
+    path: Assets/Scenes/LVL10.unity
+    guid: b50b2eb1ecf58a642884c583181bce97
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 50594b6849a971441a48c896b3f59b41
   m_configObjects: {}
