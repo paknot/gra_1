@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6280884274670452321}
   - component: {fileID: 5269449484464268247}
+  - component: {fileID: 3242615554867741917}
   - component: {fileID: 909866897897631815}
-  - component: {fileID: -3790103393856905775}
-  - component: {fileID: -3713465424287224851}
+  - component: {fileID: 6310624907027307369}
   m_Layer: 0
   m_Name: "strza\u0142a"
   m_TagString: Untagged
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8d7be8800d18a2648bc4ee29e226e9df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84,6 +84,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &3242615554867741917
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3878717556974334971}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!60 &909866897897631815
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -125,28 +146,7 @@ PolygonCollider2D:
       - {x: -0.35999998, y: -0.085}
       - {x: -0.31, y: -0.015}
       - {x: 0.29999998, y: -0.015}
---- !u!50 &-3790103393856905775
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3878717556974334971}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
---- !u!114 &-3713465424287224851
+--- !u!114 &6310624907027307369
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,4 +160,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   damage: 20
-  rb: {fileID: -3790103393856905775}
+  rb: {fileID: 3242615554867741917}
