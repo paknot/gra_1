@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: dada84d7e8f06ef49b7b1f2dfd902e4e
   - enabled: 1
+    path: Assets/Scenes/LOR.unity
+    guid: f503462b8a7eb6848bba05b89022dc63
+  - enabled: 1
     path: Assets/Scenes/LVL1.unity
     guid: 152300afd74eb72409e423d91f311646
   - enabled: 1
@@ -37,8 +40,14 @@ EditorBuildSettings:
     guid: ee52dd4c6a6809244b8c234713548dd3
   - enabled: 1
     path: Assets/Scenes/LVL10.unity
-    guid: b50b2eb1ecf58a642884c583181bce97
+    guid: 4a3ff4508fa8f55409a7b11bcb975abc
   - enabled: 1
     path: Assets/Scenes/Death.unity
     guid: 50594b6849a971441a48c896b3f59b41
+  - enabled: 1
+    path: Assets/Scenes/Dzieki.unity
+    guid: 1d47edd5d21d8124b993d46f22184a95
+  - enabled: 1
+    path: Assets/Scenes/Menu 1.unity
+    guid: d45e65774be24ff4d89638675a065971
   m_configObjects: {}
